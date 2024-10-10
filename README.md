@@ -13,3 +13,10 @@ Node-RED's library supports data acquisition through various protocols commonly 
 The system allows the creation of custom alerts to user.
 <img width="1216" alt="Captura de Tela 2024-10-09 às 11 30 30 PM" src="https://github.com/user-attachments/assets/9f4ac87b-499a-42af-ac0a-f1d23d4f6efb">
 <img width="1218" alt="Captura de Tela 2024-10-09 às 11 30 43 PM" src="https://github.com/user-attachments/assets/73ae2842-2d57-428c-b888-89b4959a6bd6">
+
+## How to Build/Run Application:
+- Install NodeJS (latest version) and NPM
+- Using NPM, install Node-Red
+- Execute node-red via terminal
+- On Node Red home screen, import the main JSON file from this repo. (some extra libraries may be required)
+- Deploy the app and access via localhost:1880/ui
