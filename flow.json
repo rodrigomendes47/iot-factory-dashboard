@@ -1,0 +1,1021 @@
+[
+    {
+        "id": "b0e9e1a99cacf0ae",
+        "type": "tab",
+        "label": "Fluxo 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "3ca35949321f1cc0",
+        "type": "ui_group",
+        "name": "Motor #132",
+        "tab": "400f65d14ff67b65",
+        "order": 2,
+        "disp": true,
+        "width": "5",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "400f65d14ff67b65",
+        "type": "ui_tab",
+        "name": "General",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "057a5276feff3a8b",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "5c0f827d9ffb3645",
+        "type": "ui_group",
+        "name": "Motor #131",
+        "tab": "400f65d14ff67b65",
+        "order": 1,
+        "disp": true,
+        "width": "5",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "419b2b9b906e0d9b",
+        "type": "ui_group",
+        "name": "Motor #133",
+        "tab": "400f65d14ff67b65",
+        "order": 3,
+        "disp": true,
+        "width": "5",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "68a68eb515fe7808",
+        "type": "ui_group",
+        "name": "Main Control",
+        "tab": "400f65d14ff67b65",
+        "order": 4,
+        "disp": true,
+        "width": "4",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "113510c6b5fd9c78",
+        "type": "ui_tab",
+        "name": "Report",
+        "icon": "list",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "c320284bb86fccb5",
+        "type": "ui_group",
+        "name": "Send a Report",
+        "tab": "113510c6b5fd9c78",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4cc4c25ad39ca7d2",
+        "type": "ui_group",
+        "name": "Overview",
+        "tab": "113510c6b5fd9c78",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6a54e426dc51ca1f",
+        "type": "inject",
+        "z": "b0e9e1a99cacf0ae",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 60,
+        "wires": [
+            [
+                "1b08237b8f04f4a9"
+            ]
+        ]
+    },
+    {
+        "id": "f51e5cc386f6d7d8",
+        "type": "ui_gauge",
+        "z": "b0e9e1a99cacf0ae",
+        "name": "",
+        "group": "5c0f827d9ffb3645",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Velocity",
+        "label": "RPM",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 520,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "1b08237b8f04f4a9",
+        "type": "function",
+        "z": "b0e9e1a99cacf0ae",
+        "name": "function 1",
+        "func": "msg.payload = 45.2 + msg.payload % 9;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 60,
+        "wires": [
+            [
+                "f51e5cc386f6d7d8",
+                "a28b1fce5a0f5152",
+                "cbfec2c9263bce79"
+            ]
+        ]
+    },
+    {
+        "id": "a28b1fce5a0f5152",
+        "type": "ui_chart",
+        "z": "b0e9e1a99cacf0ae",
+        "name": "",
+        "group": "5c0f827d9ffb3645",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "History",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "50",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 520,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f6b90b6e43a39d62",
+        "type": "inject",
+        "z": "b0e9e1a99cacf0ae",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 180,
+        "wires": [
+            [
+                "2d3ca8bb9f51816b"
+            ]
+        ]
+    },
+    {
+        "id": "f9087494a1d75e76",
+        "type": "ui_gauge",
+        "z": "b0e9e1a99cacf0ae",
+        "name": "",
+        "group": "3ca35949321f1cc0",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Velocity",
+        "label": "RPM",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 520,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "2d3ca8bb9f51816b",
+        "type": "function",
+        "z": "b0e9e1a99cacf0ae",
+        "name": "function 2",
+        "func": "msg.payload = 40.2 + msg.payload % 7;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 180,
+        "wires": [
+            [
+                "f9087494a1d75e76",
+                "3924b84ea20892eb",
+                "e86a76dfd3460f0e"
+            ]
+        ]
+    },
+    {
+        "id": "3924b84ea20892eb",
+        "type": "ui_chart",
+        "z": "b0e9e1a99cacf0ae",
+        "name": "",
+        "group": "3ca35949321f1cc0",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "History",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "50",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 520,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6289498cd1b8a375",
+        "type": "inject",
+        "z": "b0e9e1a99cacf0ae",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 280,
+        "wires": [
+            [
+                "adb4eabf2de1f4e1"
+            ]
+        ]
+    },
+    {
+        "id": "b4d2db84c2dedacf",
+        "type": "ui_gauge",
+        "z": "b0e9e1a99cacf0ae",
+        "name": "",
+        "group": "419b2b9b906e0d9b",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Velocity",
+        "label": "RPM",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 520,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "adb4eabf2de1f4e1",
+        "type": "function",
+        "z": "b0e9e1a99cacf0ae",
+        "name": "function 3",
+        "func": "msg.payload = 30.2 + msg.payload % 5;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 280,
+        "wires": [
+            [
+                "b4d2db84c2dedacf",
+                "9f6b5a83bbced8bd",
+                "1add44b7f93bc12b"
+            ]
+        ]
+    },
+    {
+        "id": "9f6b5a83bbced8bd",
+        "type": "ui_chart",
+        "z": "b0e9e1a99cacf0ae",
+        "name": "",
+        "group": "419b2b9b906e0d9b",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "History",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "50",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 520,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cbe7a2c749ecf504",
+        "type": "ui_switch",
+        "z": "b0e9e1a99cacf0ae",
+        "name": "",
+        "label": "Motor #131",
+        "tooltip": "",
+        "group": "68a68eb515fe7808",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 90,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ef82373b5cf8af2b",
+        "type": "ui_switch",
+        "z": "b0e9e1a99cacf0ae",
+        "name": "",
+        "label": "Motor #132",
+        "tooltip": "",
+        "group": "68a68eb515fe7808",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 90,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cc23ec928d63f86d",
+        "type": "ui_switch",
+        "z": "b0e9e1a99cacf0ae",
+        "name": "",
+        "label": "Motor #133",
+        "tooltip": "",
+        "group": "68a68eb515fe7808",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 90,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "61843b1e97388069",
+        "type": "ui_slider",
+        "z": "b0e9e1a99cacf0ae",
+        "name": "",
+        "label": "Offset",
+        "tooltip": "",
+        "group": "5c0f827d9ffb3645",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "className": "",
+        "x": 230,
+        "y": 340,
+        "wires": [
+            [
+                "628da85e0840180f"
+            ]
+        ]
+    },
+    {
+        "id": "628da85e0840180f",
+        "type": "change",
+        "z": "b0e9e1a99cacf0ae",
+        "name": "offset1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "offset1",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 350,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "66b66c1cf9140a17",
+        "type": "ui_slider",
+        "z": "b0e9e1a99cacf0ae",
+        "name": "",
+        "label": "Offset",
+        "tooltip": "",
+        "group": "3ca35949321f1cc0",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "className": "",
+        "x": 230,
+        "y": 400,
+        "wires": [
+            [
+                "99d25ea8272fc3ef"
+            ]
+        ]
+    },
+    {
+        "id": "99d25ea8272fc3ef",
+        "type": "change",
+        "z": "b0e9e1a99cacf0ae",
+        "name": "offset1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "offset1",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 350,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "18679353af7ad033",
+        "type": "ui_slider",
+        "z": "b0e9e1a99cacf0ae",
+        "name": "",
+        "label": "Offset",
+        "tooltip": "",
+        "group": "419b2b9b906e0d9b",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "className": "",
+        "x": 230,
+        "y": 460,
+        "wires": [
+            [
+                "4e152063636999a3"
+            ]
+        ]
+    },
+    {
+        "id": "4e152063636999a3",
+        "type": "change",
+        "z": "b0e9e1a99cacf0ae",
+        "name": "offset1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "offset1",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 350,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8d7603c6bbcac987",
+        "type": "ui_toast",
+        "z": "b0e9e1a99cacf0ae",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "Cancel",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 250,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b3b04316c94da528",
+        "type": "ui_button",
+        "z": "b0e9e1a99cacf0ae",
+        "name": "",
+        "group": "68a68eb515fe7808",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Notification",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "Everything is OK! Don't worry :)",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 90,
+        "y": 520,
+        "wires": [
+            [
+                "8d7603c6bbcac987"
+            ]
+        ]
+    },
+    {
+        "id": "d135793c88351829",
+        "type": "ui_form",
+        "z": "b0e9e1a99cacf0ae",
+        "name": "",
+        "label": "",
+        "group": "c320284bb86fccb5",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Operator",
+                "value": "Name",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "ID",
+                "value": "00000",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Date",
+                "value": "date",
+                "type": "date",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Motor",
+                "value": "000",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Comment",
+                "value": "Comment",
+                "type": "text",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "Name": "",
+            "00000": "",
+            "date": "",
+            "000": "",
+            "Comment": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 110,
+        "y": 680,
+        "wires": [
+            [
+                "db31142b10a1a776"
+            ]
+        ]
+    },
+    {
+        "id": "c4ce26f18bd69945",
+        "type": "ui_toast",
+        "z": "b0e9e1a99cacf0ae",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "Cancel",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 410,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "db31142b10a1a776",
+        "type": "function",
+        "z": "b0e9e1a99cacf0ae",
+        "name": "function 4",
+        "func": "msg.payload = \"Report sent to database successfully\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 680,
+        "wires": [
+            [
+                "c4ce26f18bd69945"
+            ]
+        ]
+    },
+    {
+        "id": "cbfec2c9263bce79",
+        "type": "ui_text",
+        "z": "b0e9e1a99cacf0ae",
+        "group": "4cc4c25ad39ca7d2",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Motor #131",
+        "format": "{{msg.payload}} RPM",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 530,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "e86a76dfd3460f0e",
+        "type": "ui_text",
+        "z": "b0e9e1a99cacf0ae",
+        "group": "4cc4c25ad39ca7d2",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Motor #132",
+        "format": "{{msg.payload}} RPM",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 530,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "1add44b7f93bc12b",
+        "type": "ui_text",
+        "z": "b0e9e1a99cacf0ae",
+        "group": "4cc4c25ad39ca7d2",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Motor #133",
+        "format": "{{msg.payload}} RPM",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 530,
+        "y": 260,
+        "wires": []
+    }
+]
